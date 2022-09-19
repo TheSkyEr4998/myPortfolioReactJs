@@ -89,12 +89,27 @@
 }
 /* RESPONSIVE */
 @media only screen and (max-width: 1024px){
-h3.project__text {
-    font-weight: 400;
-    font-size: 20px;
-    padding-bottom: 20px;
+    h3.project__text {
+        font-weight: 400;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    .work-list{
+        margin-right: 6%;
+    }
+    h5.project__text {
+        font-size: 18px;
+    }
 }
-h5.project__text {
-    font-size: 18px;
-}
+@media only screen and (max-width: 425px){
+    .layer{
+        padding: 5%;
+    }
+    .layer p{
+        font-size: 13px;
+    }
+    .layer img{
+        width: 20px;
+        height: 20px;
+    }
 }

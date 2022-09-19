@@ -9,7 +9,7 @@ function Home() {
     header.classList.toggle("active", window.scrollY > 0);
   });
   // Toogle Menu
-   const [show, setShow] = useState(true);
+   const [show, setShow] = useState(false);
   return (
     <div className="home" id="Home">
       <div className="home__bg">
@@ -80,7 +80,6 @@ function Home() {
             <div className="home__meta">
               <h4 className="home__text pz__10">Hi, I’m Niranjan Ghone</h4>
               <h2 className="home__text sweet pz__10">Full Stack Web Developer.</h2>
-              <h4 className="home__text pz__10">based in India.</h4>
             </div>
           </div>
         </div>

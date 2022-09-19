@@ -43,15 +43,26 @@ a.bottom__to__top.active{
 /* RESPONSIVE */
 @media only screen and (max-width: 1024px){
     .p__color{
-        font-size: 15px!important;
+        font-size: 13px!important;
+        padding-right: 3%;
+        justify-content: safe;
+    }
+}
+@media only screen and (max-width: 768px){
+    .p__color{
+        font-size: 18px!important;
     }
 }
 @media only screen and (max-width: 425px){
-button.about.btn.pointer {
-    text-transform: capitalize;
-    width: 165px;
-    height: 50px;
-    font-size: 13px;
-    transition: .4s ease;
-}
+    button.about.btn.pointer {
+        text-transform: capitalize;
+        width: 165px;
+        height: 50px;
+        font-size: 13px;
+        transition: .4s ease;
+        margin-right: 15%;
+    }
+    .row{
+        margin-left: 6%;
+    }
 }

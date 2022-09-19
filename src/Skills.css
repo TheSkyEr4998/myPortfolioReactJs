@@ -71,7 +71,7 @@ p.heading.p__color {
     color: #fff;
 }
 .Tech-skills,.Tools{
-    margin: 50px 0;
+    margin: 50px -25px;
     height: 150px;
     width: 100%;
     display: flex;
@@ -88,7 +88,50 @@ p.heading.p__color {
 }
 /* RESPONSIVE */
 @media only screen and (max-width: 1024px){
-.Skill__box {
-    padding: 32px;
+    .Skill__box {
+        padding: 30px;
+    }
+    .Tools img,.Tech-skills img{
+        margin: auto;
+        width: 70px;
+    }
+    .Tools{
+        gap: 6px;
+    }
+    .Tech-skills,.Tools{
+        margin: 70px 30px;
+        height: 150px;
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }
+@media only screen and (max-width: 768px){
+    .Tools img,.Tech-skills img{
+        margin: auto;
+        width: 100px;
+    }
+    .Tech-skills,.Tools{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: auto;
+        justify-content: space-evenly;
+        column-gap: 40px;
+        height: 500px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .Tools img,.Tech-skills img{
+        margin: auto;
+        width: 100px;
+    }
+    .Tech-skills,.Tools{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: auto;
+        justify-content: space-evenly;
+        column-gap: 40px;
+        height: 500px;
+    }
 }

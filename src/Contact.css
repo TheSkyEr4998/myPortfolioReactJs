@@ -102,3 +102,8 @@ form .btn-2{
     width: 30px;
     height: 30px;
 }
+@media only screen and (max-width:1024px){
+    .row{
+        padding-right: 6%;
+    }
+}

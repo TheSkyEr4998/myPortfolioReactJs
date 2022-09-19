@@ -69,10 +69,19 @@ li.sideNavbar{
     padding: 25px 30px;
 }
 /* RESPONSIVE */
+
+@media only screen and (min-width: 780px) and (max-width: 1024px ){
+    .toggle__menu{
+        display: none ;
+    }
+}
 @media only screen and (max-width: 768px){
  .header{
      justify-content: space-between;
  }
+ .toggle__menu{
+    margin-right: 3% ;
+}
  .navigation.pxy__30 {
         display: none;
     }
@@ -83,18 +92,32 @@ svg.bi.bi-justify.white.pointer {
     width: 30px;
     height: 30px;
 }
+.home__bg{
+    background-image: url(F:\MASAI\GITHUB\PORTFOLIO\portfolio-reactJs\src\img\bg768.jpg);
+    background-color: #010101;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 }
 @media only screen and (max-width: 425px){
+    .home__bg{
+        background-image: url(F:\MASAI\GITHUB\PORTFOLIO\portfolio-reactJs\src\img\bg425.jpg);
+        background-color: #010101;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     h2.home__text.pz__10{
-    font-size: 32px;
-}
-h3.sweet.pz__10 {
-    font-size: 40px;
-}
-h1.home__text {
-    font-size: 14px;
-}
-h4.home__text {
     font-size: 45px;
-}
+    }
+    h1.home__text {
+        font-size: 14px;
+    }
+    h4.home__text {
+        font-size: 25px;
+    }
+    .home__meta{
+        margin-top: 70%;
+    }
 }
